@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Stock Plotter 3000!</title>
+        <link href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" rel="stylesheet" type="text/css">
+        <script src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <!-- <link rel="icon" href="favicon.ico"> -->
+        <title>Stock Plotter 3000!</title>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class=metanav>
+        <h1>Stock Plotter 3000</h1>
+        <div>
+            <form id="tickerform" action="/plot" method="POST">
+                Ticker Symbol: <input type="text" name="current_symbol" placeholder="ticker symbol"></input> <!--Create a dropdown list with the following options=-->
+                <div>
+                    <input type="submit" value="Submit"></input> <!--Create the submit button-->
+                </div>
+            </form>
+        </div>
+    <!-- Bootstrap core JavaScript-->
+    <!--================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

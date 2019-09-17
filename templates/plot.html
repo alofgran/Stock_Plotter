@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" rel="stylesheet" type="text/css">
+        <script src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <title>Stock Plotter 3000!</title>
+    </head>
+    <body>
+        <div class=page>
+            <h1>Stock Plotter 3000</h1>
+            {{ script|safe }} <!--Marks the js scrips as safe for the web-->
+            {{ div|safe }}
+        </div>
+    </body>
+</html>
